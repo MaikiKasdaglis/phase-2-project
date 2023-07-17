@@ -1,0 +1,148 @@
+/* global shit  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary: #bc4123;
+  --secondary: #2b3452;
+}
+* {
+  color: #fff;
+  margin: 0;
+}
+p {
+  margin: 20px 0;
+}
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+/* navbar */
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+header nav a.active {
+  background: var(--primary);
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  background: var(--secondary);
+}
+
+/* dashboar and tables  */
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+/* Current Parings */
+.pairing-selector {
+  margin-top: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  color: var(--secondary);
+}
+
+/* pairings layout */
+.pairings-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+.pairings-layout nav a {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.pairings-layout nav a:hover {
+  border-color: var(--primary);
+}
+.pairings-layout nav a.active {
+  background: var(--primary);
+}
+
+/* paring forms */
+.pairing-form {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.tfp-inputs {
+  padding: 10px;
+  margin-top: 50px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+form {
+  margin-top: 30px;
+}
+form input,
+form label span,
+form textarea {
+  display: block;
+}
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+}
+form label span {
+  margin-bottom: 4px;
+}
+
+/* dashboard layout */
+
+.dashboard-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+.dashboard-layout nav a {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.dashboard-layout nav a:hover {
+  border-color: var(--primary);
+}
+.dashboard-layout nav a.active {
+  background: var(--primary);
+}
