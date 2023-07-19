@@ -1,0 +1,5 @@
+{
+  "/months/:id": "/months/:id?_embed=pairings",
+  "/pairings/:id": "/pairings/:id?_embed=days",
+  "/months/:id/days": "/months/:id/days?_embed=days"
+}

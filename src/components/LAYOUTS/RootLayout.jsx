@@ -8,7 +8,6 @@ export default function RootLayout() {
           <h1>SWA Pay Tracker</h1>
           <NavLink to="/">Login</NavLink>
           <NavLink to="dashboard-layout">Dashboard</NavLink>
-          <NavLink to="current-pairing">Current</NavLink>
         </nav>
       </header>
 

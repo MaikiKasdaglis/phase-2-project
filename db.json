@@ -1,0 +1,500 @@
+{
+  "months": [
+    {
+      "id": 1,
+      "month": "January"
+    },
+    {
+      "id": 2,
+      "month": "February"
+    },
+    {
+      "id": 3,
+      "month": "March"
+    },
+    {
+      "id": 4,
+      "month": "April"
+    },
+    {
+      "id": 5,
+      "month": "May"
+    },
+    {
+      "id": 6,
+      "month": "June"
+    },
+    {
+      "id": 7,
+      "month": "July"
+    },
+    {
+      "id": 8,
+      "month": "August"
+    },
+    {
+      "id": 9,
+      "month": "September"
+    },
+    {
+      "id": 10,
+      "month": "October"
+    },
+    {
+      "id": 11,
+      "month": "November"
+    },
+    {
+      "id": 12,
+      "month": "December"
+    }
+  ],
+  "pairings": [
+    {
+      "monthId": 1,
+      "tafb": 0,
+      "tafbInt": 0,
+      "id": 1
+    },
+    {
+      "monthId": 1,
+      "tafb": 54.4,
+      "tafbInt": 0,
+      "id": 2
+    },
+    {
+      "monthId": 1,
+      "tafb": 54.93,
+      "tafbInt": 0,
+      "id": 3
+    },
+    {
+      "monthId": 1,
+      "tafb": 53.85,
+      "tafbInt": 0,
+      "id": 4
+    },
+    {
+      "monthId": 1,
+      "tafb": 61.2,
+      "tafbInt": 0,
+      "id": 5
+    },
+    {
+      "monthId": 1,
+      "tafb": 0,
+      "tafbInt": 0,
+      "id": 6
+    },
+    {
+      "monthId": 2,
+      "tafb": 50,
+      "tafbInt": null,
+      "id": 7
+    }
+  ],
+  "days": [
+    {
+      "pairingId": 1,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 1,
+      "id": 1
+    },
+    {
+      "pairingId": 1,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 2,
+      "id": 2
+    },
+    {
+      "pairingId": 1,
+      "monthId": 1,
+      "faA": true,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 7.5,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 1,
+      "day": 3,
+      "id": 3
+    },
+    {
+      "pairingId": 1,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 4,
+      "id": 4
+    },
+    {
+      "pairingId": 1,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 5,
+      "id": 5
+    },
+    {
+      "pairingId": 2,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 6.75,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 1,
+      "id": 6
+    },
+    {
+      "pairingId": 2,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 4.82,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 1,
+      "day": 2,
+      "id": 7
+    },
+    {
+      "pairingId": 2,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 9.4,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 1,
+      "day": 3,
+      "id": 8
+    },
+    {
+      "pairingId": 2,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 4,
+      "id": 9
+    },
+    {
+      "pairingId": 2,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 5,
+      "id": 10
+    },
+    {
+      "pairingId": 3,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 8.7,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 2,
+      "day": 1,
+      "id": 11
+    },
+    {
+      "pairingId": 3,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 4,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 2,
+      "id": 12
+    },
+    {
+      "pairingId": 3,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 7.6,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 1,
+      "day": 3,
+      "id": 13
+    },
+    {
+      "pairingId": 3,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 4,
+      "id": 14
+    },
+    {
+      "pairingId": 3,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 5,
+      "id": 15
+    },
+    {
+      "pairingId": 4,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 7.1,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 1,
+      "day": 1,
+      "id": 16
+    },
+    {
+      "pairingId": 4,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 4.9,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 1,
+      "day": 2,
+      "id": 17
+    },
+    {
+      "pairingId": 4,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 7.4,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 2,
+      "day": 3,
+      "id": 18
+    },
+    {
+      "pairingId": 4,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 4,
+      "id": 19
+    },
+    {
+      "pairingId": 4,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0.1,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 5,
+      "id": 20
+    },
+    {
+      "pairingId": 5,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 7.4,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 1,
+      "day": 1,
+      "id": 21
+    },
+    {
+      "pairingId": 5,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 7.4,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 3,
+      "day": 2,
+      "id": 22
+    },
+    {
+      "pairingId": 5,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 8.23,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 3,
+      "day": 3,
+      "id": 23
+    },
+    {
+      "pairingId": 5,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 4,
+      "id": 24
+    },
+    {
+      "pairingId": 5,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 5,
+      "id": 25
+    },
+    {
+      "pairingId": 6,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 1,
+      "id": 26
+    },
+    {
+      "pairingId": 6,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 2,
+      "id": 27
+    },
+    {
+      "pairingId": 6,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 3,
+      "id": 28
+    },
+    {
+      "pairingId": 6,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 4,
+      "id": 29
+    },
+    {
+      "pairingId": 6,
+      "monthId": 1,
+      "faA": false,
+      "tfp": 0,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "reserve": false,
+      "overrides": 0,
+      "day": 5,
+      "id": 30
+    },
+    {
+      "pairingId": 7,
+      "monthId": 2,
+      "faA": true,
+      "tfp": 6,
+      "holiday": 0,
+      "overtime": 0,
+      "dblHalf": 0,
+      "overrides": 0,
+      "day": 1,
+      "id": 31
+    }
+  ]
+}

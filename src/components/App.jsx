@@ -4,30 +4,35 @@ import {
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
-
 //PAGE
 import Login from "./PAGES/Login";
-import Pairing1 from "./PAGES/Pairings Section/Pairing1";
+import PairingCard from "./PAGES/Pairings Section/PairingCard";
+import DayForm, { dayFormAction } from "./PAGES/Pairings Section/DayForm";
+import PairingForm, {
+  pairingFormAction,
+} from "./PAGES/Pairings Section/PairingForm";
+
 // import CurrentPairing from "./PAGES/CurrentPairing";
 //LAYOUTS
 import RootLayout from "./LAYOUTS/RootLayout";
-import PairingsLayout from "./LAYOUTS/PairingsLayout";
 import DashboardLayout from "./LAYOUTS/DashboardLayout";
-import JanLayout from "./LAYOUTS/JanLayout";
+import MonthLayout from "./LAYOUTS/MonthLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Login />} />
-      {/* <Route path="dashboard" element={<Dashboard />} /> */}
       <Route path="dashboard-layout" element={<DashboardLayout />}>
-        <Route path="Jan" element={<JanLayout />}>
-          <Route path="pairing-1" element={<Pairing1 />} />
+        <Route path=":month" element={<MonthLayout />}>
+          <Route path=":pairing" element={<PairingCard />} />
         </Route>
       </Route>
-      <Route path="current-pairing" element={<PairingsLayout />}>
-        <Route path="pairing-1" element={<Pairing1 />} />
-      </Route>
+      <Route
+        path="pairing-form"
+        element={<PairingForm />}
+        action={pairingFormAction}
+      />
+      <Route path="day-form" element={<DayForm />} action={dayFormAction} />
     </Route>
   )
 );
